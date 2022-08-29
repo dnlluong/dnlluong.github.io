@@ -2,13 +2,12 @@
 layout: project
 type: project
 image: img/cotton/cotton-square.png
-title: "Cotton"
-date: 2014
+title: "Huligatti"
+date: 2022
 published: true
 labels:
-  - Lisp
-  - GitHub
-summary: "A text adventure game I developed for ICS 313."
+  - Python
+summary: "An Indian board game Implemented into Python with AI"
 ---
 
 <img class="img-fluid" src="../img/cotton/cotton-header.png">
