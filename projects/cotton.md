@@ -4,7 +4,7 @@ type: project
 image: img/cotton/cotton-square.png
 title: "Huligatti"
 date: 2022
-published: true
+published: false
 labels:
   - Python
 summary: "An Indian board game Implemented into Python with AI"
