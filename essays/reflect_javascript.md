@@ -9,17 +9,10 @@ labels:
   - Engineering
 ---
 
-I started out learning C, so learning Javascript wasn't too much of a new experience to me, as the syntax was fairly similar.  Actually, it almost felt like I was learning C for the most part, especially with the beginner lessons of Javascript.  The first syntax change that caught my eye was the use of let and const to define variables instead of using "var".
+## Thoughts on the Javascript Language
 
+I started out learning C, so learning Javascript wasn't too much of a new experience to me, as the syntax was fairly similar.  Actually, it almost felt like I was learning C for the most part, especially with the beginner lessons of Javascript.  The first syntax change that caught my eye was the use of let and const to define variables instead of using "var".  Other than that it was almost if I was learning C again.  Only once I got into the ES6 portion of the lessons that things started to feel a lot different.  ES6 really helped shorten the code to represent the same thing, with destructuring syntax and also with the rest and spread operators.  Although I'm still fresh to the world of software development, I can't earnestly answer the question if Javascript was worth learning or not.  I feel as if most languages are worth learning for fulfilling certain niches, as thats what they were created for inthe first place.
 ## Thoughts about Athletic Programming
 
 Athletic Programming preps us better for
 
-
-## Okay!
-
-So back to the original premise; why is being one of the club officers so difficult?
-
-And the final answer - it's supposed to be difficult, and it's supposed to challenge you, just like everything else that humans do that is difficult: programming, engineering, engaging in relationships, pondering the universe, etc.
-
-Ultimately the question you should really ask yourself if something if particularly difficult is then "is it worth it"? That is something that is context specific and only you can answer yourself.
