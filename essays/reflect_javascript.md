@@ -9,15 +9,7 @@ labels:
   - Engineering
 ---
 
-*Difficulty: a thing that is hard to accomplish, deal with, or understand.*
-
-One of my friends asked the question earlier last week -- why is it so hard to be an officer for the student branch? Why is so hard compared to working at my on-campus job? This question came after he struggled a little with bookkeeping for the student organization.
-
-Now I gave him the standard answer - being an officer of an organization requires that you manage your time between school and work. There isn't anyone telling you what to do. It's the answer any good mentor would give, and is mostly true.
-
-But the more I though about it, the more I wondered to myself...damn that's a really great question; it's one that deserves some more thought. Most people I think stop at the answer I gave previously - he obviously isn't managing his time properly.
-
-Here's what I think: the difficult things will always be difficult.
+I started out learning C, so learning Javascript wasn't too much of a new experience to me, as the syntax was fairly similar.  Actually, it almost felt like I was learning C for the most part, especially with the beginner lessons of Javascript.  The first syntax change that caught my eye was the use of let and const to define variables instead of using "var".
 
 ## Thoughts about Athletic Programming
 
