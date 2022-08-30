@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/wordle/wordle-square.jpeg
+image: img/wordle/wordle-square.jpg
 title: "Wordle"
 date: 2022
 published: true
