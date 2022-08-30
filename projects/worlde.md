@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/cotton/wordle-banner.jpeg
+image: img/wordle/wordle-square.jpeg
 title: "Wordle"
 date: 2022
 published: true
