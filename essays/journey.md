@@ -1,10 +1,10 @@
 ---
 layout: essay
 type: essay
-title: "The difficult things will always be difficult"
+title: "Software Engineering Aspirations"
 # All dates must be YYYY-MM-DD format!
-date: 2016-02-06
-published: false
+date: 2012-08-29
+published: true
 labels:
   - Engineering
 ---
