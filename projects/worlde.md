@@ -7,6 +7,7 @@ date: 2022
 published: true
 labels:
   - Python
+  - Information Entropy
 summary: "Program to give you the best words to use to increase your chances of winning Wordle"
 ---
 
