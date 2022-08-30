@@ -20,7 +20,7 @@ Wordle is a popular web-based word game.
 
 ## How to play
 
-In Wordle you are given a specific number of turns to guess the word that was chosen.  For each consecutive word you are given a different color in each letter block, they will either indicate if that letter exists at all, if it exists but in a different block, or if that letter exists in that specific block.  
+In Wordle you are given a specific number of turns to guess the word that was chosen.  For each consecutive word you are given a different color in each letter block, they will either indicate if that letter exists at all, if it exists but in a different block, or if that letter exists in that specific block.  Assigning values to those three specific states of the blocks, we are given patterns for each word and compare it to the patterns of 
 
 </pre>
 
