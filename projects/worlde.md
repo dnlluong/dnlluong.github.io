@@ -11,7 +11,7 @@ labels:
 summary: "Program to give you the best words to use to increase your chances of winning Wordle"
 ---
 
-<img class="img-fluid" src="../img/cotton/cotton-header.png">
+<img class="img-fluid" src="../img/wordle/wordle-banner.png">
 
 Wordle is a popular web-based word game.
 
