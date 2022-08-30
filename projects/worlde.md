@@ -14,9 +14,7 @@ summary: "Program to give you the best words to use to increase your chances of 
 
 Wordle is a popular web-based word game.
 
-<hr>
 
-<pre>
 
 ## How to play
 
@@ -24,9 +22,7 @@ In Wordle you are given a specific number of turns to guess the word that was ch
 
 We use this information from these patterns to deduce which other words may match this pattern and see which word will lower the amount of words left in the "dictionary" the most.  The best first word to reduce the number of possibilities may not be used when you want to use two words to reduce the possibilities as there maybe information overlap.  This program will give you the best word, or words to use, for a given scenario.  What words came before, if any, and how many possibilities you may have left.
 
-</pre>
 
-<hr>
 
 Source: <a href="https://github.com/jogarces/ics-313-text-game"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
 
