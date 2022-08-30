@@ -17,14 +17,14 @@
   },
   "interests": [
     { "name": "Machine Learning" },
-    { "name": "Neuromorphic Computing" },
+    { "name": "Crypto" },
     { "name": "Quantum Computing" },
     { "name": "Robotics" },
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", ]
+      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly","Python", ]
     },
     {
       "name": "Toolsets/OS",
@@ -36,7 +36,7 @@
       "institution": "University of Hawaii, Honolulu, HI",
       "area": "Computer Engineering (expected Fall, 2022)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2018-09-01",
       "endDate": "Present",
       "courses": [
       ]
