@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Beginner Tackling Javascript"
+title: "Diving into Javascript from C"
 # All dates must be YYYY-MM-DD format!
 date: 2022-08-26
 published: true
