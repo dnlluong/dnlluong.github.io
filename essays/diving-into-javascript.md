@@ -9,7 +9,7 @@ labels:
   - Engineering
   - Javascript
 ---
-<img width="400px" class="rounded float-start pe-4" src="../img/diving-java/dive-board-ban.png">
+<img width="400px" class="rounded float-start pe-4" src="../img/diving-java/diving-board-ban.png">
 <img width="400px" class="rounded float-start pe-4" src="../img/diving-java/javascript-banner.png">
 
 Learning a new language is always daunting.  If you already have experience with a language another language isn't too farfetched, in theory.  There are usually a few or a lot of syntax changes but you should be able to understand how to code in that language.  The hard part is breaking out of the mindset of coding of the language you're used to.  Maybe something you do specifically one way can be done a simpler, or easier way in another language as they have a different functionality that allows that to happen.  It's your own duty to try to unlock a language full potential, if possible, not just do it the same way you would with one language, as there would be no point in having different languages anyway.
