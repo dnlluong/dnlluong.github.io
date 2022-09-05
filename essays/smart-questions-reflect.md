@@ -15,9 +15,9 @@ labels:
 
 Steve Jobs:  “I've never found anybody that didn't want to help me if I asked them for help.”
 
-## Is there such thing as a stupid question?
+## Do we think how we ask questions?
 
-I’ve had instructors address a whole class and say, “There’s no such thing as a stupid question.” I now know that is in fact not true because I’ve challenged the statement and received the appropriate dumb-stricken, annoyed look. There are definitely stupid questions, and along with that, usually unhelpful answers. Though we all might be guilty of being callous and making people victim to our poorly formed questions, there are steps we can take to ask smarter questions that hopefully don’t illicit the dreaded “rtfm” or “stfw” response.
+When I ask a question do I really think how I ask the question.  Most of the times, not really.
 
 ## What’s a smart question?
 
