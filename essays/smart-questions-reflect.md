@@ -66,7 +66,7 @@ how can I achieve this without having to make 4 different empty structs to avoid
 
 ```
 
-While the question does not give us enough specific information, it gives us enough information once we open the link and see the intial information provided about the problem.  He provides his code that is easily able to be copied and pasted to reproduce the result he posted.  He also informs us what the code should intend to do.  This elicits more than a couple solutions to his problem from multiple people willing to help, with their own code that can be copy and pasted to try their "fix" of the problem.  While this is not the "best" question, it hits most of the check marks of being specific enough about their problem, provided easy examples to be reproduced, what his output is, and what his desired output is.
+While the question does not give us enough specific information in the title, it gives us enough information once we open the link and see the intial information provided about the problem.  He provides his code that is easily able to be copied and pasted to reproduce the result he posted.  He also informs us what the code should intend to do.  This elicits more than a couple solutions to his problem from multiple people willing to help, with their own code that can be copy and pasted to try their "fix" of the problem.  While this is not the "best" question, it hits most of the check marks of being specific enough about their problem, provided easy examples to be reproduced, what his output is, and what his desired output is.
 
 ## The Opposite end of the Spectrum
 
