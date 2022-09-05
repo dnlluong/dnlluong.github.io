@@ -27,6 +27,8 @@ Stack Overflow, a question and answer site for programmers, is an amazing resour
 In the following example, we examine the components of a decent question that gets the response wanted.
 
 ```
+Question:how can I achieve multiple conditional inheritance?
+
 I have a type build that has a flag template, and according to the active flag bits, it inherits from those types. this allows me to "build" classes from many subclasses with a great number of configurations:
 
 Code:
@@ -60,35 +62,11 @@ how can I achieve this without having to make 4 different empty structs to avoid
 
 ```
 
+While the question does not give us enough specific information, it gives us enough information once we open the link and see the intial information provided about the problem.  He provides his code that is easily able to be copied and pasted to reproduce the result he posted.  He also informs us what the code should intend to do.  This elicits more than a couple solutions to his problem from multiple people willing to help, with their own code that can be copy and pasted to try their "fix" of the problem.  While this is not the "best" question, it hits most of the check marks of being specific enough about their problem, provided easy examples to be reproduced, what his output is, and what his desired output is.
 
+## The Opposite end of the Spectrum
 
-While the heading of his question could be better, it does convey what he’s trying to figure out. Usually something as brief as “python date of previous month” is what other users would enter in as search terms on Google, making it easily found. Another good thing about the question is that it’s not just a question. The asker shows what he or she has done and that he or she has put in some effort to answer the question. And while it may not be as important as the question itself, the asker shows courtesy, which does increase the chance of getting an answer.
-
-```
-A: datetime and the datetime.timedelta classes are your friend.
-
-1. find today
-2. use that to find the first day of this month.
-3. use timedelta to backup a single day, to the last day of the previous month.
-4. print the YYYYMM string you're looking for.
-
-Like this:
-
- >>> import datetime
- >>> today = datetime.date.today()
- >>> first = datetime.date(day=1, month=today.month, year=today.year)
- >>> lastMonth = first - datetime.timedelta(days=1)
- >>> print lastMonth.strftime("%Y%m")
- 201202
- >>>
-
-```
- 
-The asker received six possible answers, and he or she was successful in inciting discussion from multiple users. The answers themselves were clear and were devoid of the rumored sarcasm and hostility of “hackers.” Since I myself have referenced this page and found it useful, I can confidently say that it is a good question.
-
-## The foolproof way to get ignored.
-
-While there are decent questions that benefit everyone, there are those one can ask to create an entirely different effect. In the following example, a user asks how he would, in short, create a desktop application with Facebook.
+Stack Overflow is loaded with a bunch of great, amazing, smart questions.  The same can be also said about the other end.  There are also a bunch of questions of Stack Overflow that may not have any responses or few that may not even solve the question.  It may not be because the question is insolvable but more in a way that it is hard to infer what they are asking or they made it too inconvenient to even try to attempt to help them.
 
 ```
 Q: Facebook Desktop Notifier
@@ -105,4 +83,4 @@ A simple “yes” would have answered the question, but we know that’s not th
 
 ## Conclusion
 
-When we rely on others’ generosity and expertise to provide answers to our questions, it should hold that the question we ask should be one that leads to efficient and effective help that not only benefits us, but also the people we ask and others who might ask the same question in the future. Thus, if you have a question… make it a smart one! Asking questions may not always get you the best answer, but asking them in a way that will make others want to answer them will increase the success of finding a good solution and make it a positive experience on all sides.
+Like Steve Jobs said,  people are willing to help if you ask.  If you're gonna ask though, you better not be wasting their time.  When they go and view your question, they should be spending more time trying to help you solve your problem than spending time trying to see what your problem is in the first place, or even understand what problem you are having.
