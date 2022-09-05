@@ -36,7 +36,7 @@ Contents:
 I have a type build that has a flag template, and according to the active flag bits, it inherits from those types. this allows me to "build" classes from many subclasses with a great number of configurations:
 
 Code:
-truct empty {};
+struct empty {};
 
 template<std::uint8_t flags> 
 using flag_a_type = std::conditional_t<(flags & FLAG_BIT_A), A, empty>;
