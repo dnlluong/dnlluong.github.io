@@ -17,11 +17,12 @@ Steve Jobs:  “I've never found anybody that didn't want to help me if I asked 
 
 ## Do we think how we ask questions?
 
-When I ask a question do I really think how I ask the question.  Most of the times, not really.
+When I ask a question do I really think how I ask the question.  Most of the times, not really.  I just ask the question the best I can to be able to get a response to a question.  When I actually think about how I ask questions, I do realize there could be better ways and worse ways than the things I already do.  People are willing to help if you ask, to have respect for their time, we should try make their time helping us the shortest and easiest that we possibly can.
 
 ## What’s a smart question?
 
-Stack Overflow, a question and answer site for programmers, is a great resource for anyone who may have issues with code or who may simply want to learn new or different methods of doing something. There I found examples of good questions and bad questions, which could probably be improved.
+Stack Overflow, a question and answer site for programmers, is an amazing resource.  I'd like to say that 99% of programmers, at least from the U.S, have used or at least heard of Stack Overflow.  With it having so many questions we can see good and bad of examples of people asking questions.  The Good ones tend to get the responses that they wanted, while the bad ones might take a while to navigate what they want from the questions, or even being ignored entirely.
+
 
 In the following example, we examine the components of a decent question. In this case, the asker is trying to figure out a way to get the date of the previous month in Python.
 
