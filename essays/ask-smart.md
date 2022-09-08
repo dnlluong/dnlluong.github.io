@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Smart Questions, Good Answers"
+title: "If you ask, ask it Smart"
 # All dates must be YYYY-MM-DD format!
 date: 2022-09-04
 published: true
@@ -11,7 +11,7 @@ labels:
   - StackOverflow
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
+<img width="300px" class="rounded float-start pe-4" src="../img/ask-smart/stevejobs.jpeg">
 
 Steve Jobs:  “I've never found anybody that didn't want to help me if I asked them for help.”
 
