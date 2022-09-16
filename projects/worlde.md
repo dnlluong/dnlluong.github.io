@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/wordle/wordle-square.jpg
+image: img/wordle/worldle-square.jpg
 title: "Wordle"
 date: 2022
 published: true
@@ -11,7 +11,7 @@ labels:
 summary: "Program to give you the best words to use to increase your chances of winning Wordle"
 ---
 
-<img class="img-fluid" src="../img/wordle/worldle_banner.png">
+<img class="img-fluid" src="../img/wordle/wordle_banner.png">
 
 Wordle is a popular web-based word game.
 
