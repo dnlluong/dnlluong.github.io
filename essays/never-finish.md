@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Software Engineering Aspirations"
+title: "You never finish learning"
 # All dates must be YYYY-MM-DD format!
 date: 2022-08-29
 published: true
@@ -17,9 +17,9 @@ labels:
 When I was kid I loved using the Computer, the internet was new then, we couldn't talk on the phone at the same time we used it, and download speeds were abysmal compared to nowadays.  I can't recount the number of viruses I ladened our computer with in my younger days.  Computers, the internet, everything was so cool.  I always wondered how programs and the computers worked.  My unofficial delve into learning things was just googling things.  Just learning a bit about each programming language and even putting together my own computer, but nothing really official.  Only when I went to University, to Manoa, did I officially go into that discipline.
 
 ## Starting University
-When you first get that "Hello World" to print, that feeling is amazing.  I get that all the time when I learn something for the first time and put it to use, and it ends up compiling and working.
+When you first get that "Hello World" to print, that feeling is amazing.  I get that all the time when I learn something for the first time and put it to use, and it ends up compiling and working.  Learning step by step really helped.  What I initially thought was so daunting was slowly becoming understandable to me.  Working with the bare bones initially, learning C, using only VI, learning Machine language, really helped me understanding how to code and the underlying basics of how the code works.  I'm still doing that now, with my Operating Systems  Course we are seeing how  the kernel works and how it works with the hardware connected to it and how it uses the resources it has.
 
-##After Uni
+## After Uni
 In uni I learned most of the basics, enough to try and pursue a career in the Software Engineering field I desire.  Theres so much more I could learn though, different specialties that I could try to pursue.  I don't want to become a Full-Stack Developer, per say, but I do wan't to have all the tools to be able to become a Full-Stack Developer.  I want to be able to have an idea in my head, and be able to create it myself from scratch.  
 
 I came a long way from where I started but I'm still very far from where I want to be.  
