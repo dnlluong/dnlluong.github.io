@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/cotton/cotton-square.png
+image: img/huligatti/board.jpg
 title: "Huligatti"
 date: 2022
 published: true
@@ -11,7 +11,7 @@ labels:
 summary: "An Indian board game Implemented into Python with AI"
 ---
 
-<img class="img-fluid" src="../img/cotton/cotton-header.png">
+<img class="img-fluid" src="../img/huligatti/board1.png">
 
 Huligatti is a traditional indian board game otherwise known as "goats and tigers".  You start the game with 3 tigers and 3 goats.  The goal of the Tigers is to eat the goats to produce more Tigers.   Tigers win when there are no more goats.  Goats win by staying alive and trapping Tigers so the Tigers can't move.  Goats win if there is still a goat alive after so many rounds.
 
