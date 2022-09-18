@@ -11,7 +11,7 @@ labels:
   - StackOverflow
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/ask-smart/stevejobs.jpeg">
+<img width="300px" class="rounded float-start pe-4" src="../img/standard/standards.jpeg">
 
 Steve Jobs:  “I've never found anybody that didn't want to help me if I asked them for help.”
 
