@@ -6,14 +6,16 @@ title: "Standards Schmandards"
 date: 2022-09-18
 published: true
 labels:
-  - Questions
-  - Answers
-  - StackOverflow
+  - Coding
+  - Standards
+  - EsLint
 ---
 
 <img width="300px" class="rounded float-start pe-4" src="../img/standards/standards.jpg">
 
 ## Do we think how we ask questions?
 
-When I ask a question do I really think how I ask the question.  Most of the times, not really.  I just ask the question the best I can to be able to get a response to a question.  When I actually think about how I ask questions, I do realize there could be better ways and worse ways than the things I already do.  People are willing to help if you ask, to have respect for their time, we should try make their time helping us the shortest and easiest that we possibly can.  We can do this be asking smarter questions, Smart Questions.
+I started off Coding trying my best to follow the couple of standards I was taught then.  I kept in my mind that the code had to be readable
 
+## Using EsLint
+The first time I used Eslint on code that I wrote it made me realize how much errors, while still compilable and runnable,  I have in my code.  
