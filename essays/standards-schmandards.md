@@ -35,3 +35,6 @@ Only towards the end of my tenure at the University did I really think about cod
 
 ## Using EsLint
 The first time I used Eslint on code that I wrote it made me realize how much errors, while still compilable and runnable,  I have in my code.  Yea, some things I thought we're too nitpicky, such as spaces in certain areas.  Overtime I wasn't making much some of the same errors as I did before.  Thinking about it now, yea my code does look a bit cleaner.  
+
+## Still working on my craft
+I'm trying to incorporate the fixes suggested from EsLint into my future codes.  Still have a lot to learn and a lot to fix in my code.  My mindset changed initially from thinking the most important thing was the algorithm but readability is a key factor.  I haven't experienced it yet but once I get into the workforce I'll be looking and working with a lot of code.  If they never coded abiding to the standards then it might've been unreadable, at least to a fresh face looking at the code.  My goal to become a better Software Engineer just got a little bit closer with EsLint helping me fix some things early on.
