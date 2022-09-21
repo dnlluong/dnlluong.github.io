@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Standards Schmandards"
+title: "Standards Schmandards?"
 # All dates must be YYYY-MM-DD format!
 date: 2022-09-18
 published: true
