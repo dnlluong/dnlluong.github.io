@@ -31,7 +31,7 @@ Yea in a sense it doesn't really matter, but if you add up a lot of things you d
 
 
 ## Thinking about readability
-Only towards the end of my tenure at the University did I really think about coding.  A professor got me thinking about function names and variables for readability.  Naming them in such a way that you would probably need very few comments and have the person reading them still able to understand what is going on and what stands for what.  
+Only towards the end of my tenure at the University did I really think about coding.  A professor got me thinking about function names and variables for readability.  Naming them in such a way that you would probably need very few comments and have the person reading them still able to understand what is going on and what stands for what.  Using this mentality, I started to think about how I code, following the standards would probably be a good start.  I wanted to think about good habits now because the longer I went on with any bad ones, it'd be harder to fix in the future.
 
 ## Using EsLint
 The first time I used Eslint on code that I wrote it made me realize how much errors, while still compilable and runnable,  I have in my code.  Yea, some things I thought we're too nitpicky, such as spaces in certain areas.  Overtime I wasn't making much some of the same errors as I did before.  Thinking about it now, yea my code does look a bit cleaner.  
