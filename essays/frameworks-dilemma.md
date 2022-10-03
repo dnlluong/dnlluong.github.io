@@ -12,15 +12,14 @@ labels:
 ---
 <img width="200px" class="rounded float-start pe-4" src="../img/frameworks/frameworks.png">
 
-HTML is easy, yes.  CSS is easy, yes.  Creating things from HTML and CSS that look amazing is not easy.  You might need a specific layout that you would need to keep trial and erroring to figure out.  If you're trying to recreate something things might be a little off.  Maybe a little off centered, or too much padding from the top, and you have to adjust for those values.  At least thats from my experience of HTML and CSS maybe I'm still not well-versed and thats why I think its so tough. 
-
+HTML is easy, yes.  CSS is easy, yes.  Creating things from HTML and CSS that look amazing is not easy.  You might need a specific layout that you would need to keep trial and erroring to figure out.  If you're trying to recreate something things might be a little off.  Maybe a little off centered, or too much padding from the top, and you have to adjust for those values.  At least thats from my experience of HTML and CSS maybe I'm still not well-versed and thats why I think its so tough.
 
 ## Learn the ins and outs of HTML and CSS
   
-  I personally think that before diving into frameworks you should be a good bit proficient in html and css without any frameworks, if time is alotted.  Without learning the basics, actually you should learn a lot more than the basics, then you won't really know what the frameworks are doing that allow them to make your time easier.  You don't have to know exactly tit-for-tat what the frameworks are doing 
+  I personally think that before diving into frameworks you should be a good bit proficient in html and css without any frameworks, if time is alotted.  Without learning the basics, actually you should learn a lot more than the basics, then you won't really know what the frameworks are doing that allow them to make your time easier.  You don't have to know exactly tit-for-tat what the frameworks are doing but being well versed in HTML and CSS will allow you to understand what the frameworks provide and tweak them ever so slightly so they can be the exact functions you need.  For example you can use the frameworks for buttons and navbars but you should first know how to make yor own first, albeit a more simpler one.  If you read the sample codes for their features you will understans what each line means.
   
 ## Using UI Frameworks
   Other than having set 
   
 ## Overall Thoughts
-  Frameworks are amazing.  I think people should definitely use them.
+  Frameworks are amazing.  I think people should definitely use them.  I honestly will use them for any future projects that require html and css.  
