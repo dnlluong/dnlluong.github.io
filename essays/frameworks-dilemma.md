@@ -17,9 +17,10 @@ HTML is easy, yes.  CSS is easy, yes.  Creating things from HTML and CSS that lo
 
 ## Learn the ins and outs of HTML and CSS
   
-  I personally think that before diving into frameworks you should be a good bit proficient in html and css without any frameworks, if time is alotted.   
+  I personally think that before diving into frameworks you should be a good bit proficient in html and css without any frameworks, if time is alotted.  Without learning the basics, actually you should learn a lot more than the basics, then you won't really know what the frameworks are doing that allow them to make your time easier.  You don't have to know exactly tit-for-tat what the frameworks are doing 
   
-## 
-
-  Athletic Software Engineering is a newer concept to me.  Though I think of it the same as the leetcode practice I've been doing, though adding a timer does change the dynamics of it vastly.  The WODs helped me brush up on my coding a bit with JavaScript.  The first one I tried took me a bit longer to get used to and get the right syntax for the code, but as you do more you get used to the new syntax of the language, things start flow more smoothly.  Though it is partly stressful, it is good stress, for lack of a better word. Akin to P.E class in high school, having these different categories of time it took to finish the problem, you know where to stand against others on a particular problem.  
-  If you're adequate enough maybe you don't need to brush up on the skills needed for that particular problem, but if you falter and take too long or even DNF then you know that specific category is something you need to brush up on.  The WODs don't test things you don't really know or too abstract, it should be things that you should know, hence the time limits. Overall, I feel people who've done Athletic Software Engineering will say it helped them feel more prepared entering the labor market.
+## Using UI Frameworks
+  Other than having set 
+  
+## Overall Thoughts
+  Frameworks are amazing.  I think people should definitely use them.
