@@ -12,7 +12,7 @@ labels:
 ---
 <img width="200px" class="rounded float-start pe-4" src="../img/frameworks/frameworks.png">
 
-HTML is easy, yes.  CSS is easy, yes.  
+HTML is easy, yes.  CSS is easy, yes.  Creating things from HTML and CSS that look amazing is not easy.
 
 
 ## Thoughts about JavaScript
