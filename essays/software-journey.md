@@ -13,8 +13,7 @@ labels:
 ---
 <img width="200px" class="rounded float-start pe-4" src="../img/frameworks/frameworks.png">
 
-HTML is easy, yes.  CSS is easy, yes.  Creating things from HTML and CSS that look amazing is not easy.  You might need a specific layout that you would need to keep trial and erroring to figure out.  If you're trying to recreate something things might be a little off.  Maybe a little off centered, or too much padding from the top, and you have to adjust for those values.  At least thats from my experience of HTML and CSS maybe I'm still not well-versed and thats why I think its so tough.
-
+I, like others in my position, think they know a fair amount of knowledge as they prepare to graduate.  I've worked with many algorithms and learned about the different ways to go about and solve them.  Certain Strategies that might be better to use in one situation than other.  Though this was the first time I've encountered functional programming.
 ## Learn the ins and outs of HTML and CSS
   
   I personally think that before diving into frameworks you should be a good bit proficient in html and css without any frameworks, if time is alotted.  Without learning the in and outs, then you won't really know what the frameworks are doing that allow them to make your time easier.  You don't have to know exactly tit-for-tat what the frameworks are doing but being well versed in HTML and CSS will allow you to understand what the frameworks provide and tweak them ever so slightly so they can be the exact functions you need.  For example you can use the frameworks for buttons and navbars but you should first know how to make yor own first, albeit a more simpler one.  If you read the sample codes for their features you will understand what each line means.
