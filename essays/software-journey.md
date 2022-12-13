@@ -38,3 +38,5 @@ They both do the same thing but go about it in different ways.  I haven't used a
   
  ## Working as a team
  Most of the time I was working alone.  Though there we're some group assignments but never using Agile Software Development.  My first time using the Agile method, it was hard to get used to, I didn't ever put things on a task board before.  After using it though I realized how much I liked it.  The tasks didn't need to be large, they could be small, and anyone could pick to do whatever tasks were available/needed to do at the time.  It was my first introduction to a scrum board.
+ 
+ I realized that this is what most companies will use in their software teams so I'm glad I got to get used to it before I go out in the real world.  With the Agile process things didn't seem so daunting as compared to the traditional Waterfall Method.  I didn't think of it as a huge project to finish, just little pieces.  In the Waterfall Method, you break down things down into pieces of course, but with the Agile process the feel of it is a lot different.
