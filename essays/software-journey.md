@@ -6,10 +6,8 @@ title: "My Software Journey"
 date: 2022-12-10
 published: true
 labels:
-  - React
-  - Meteor
-  - HTML
-  - CSS
+  - Functional Programming
+  - Agile Software Development
 ---
 <img width="200px" class="rounded float-start pe-4" src="../img/frameworks/frameworks.png">
 
