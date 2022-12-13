@@ -38,3 +38,5 @@ const result = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
 They both do the same thing but go about it in different ways.  I haven't used a lot of functinal programming myself.  I know it might not always be the best choice as because it is not as efficient with the CPU as imperative programming in most instances but seeing how it is implemented makes me realize that the "norm" of coding could change in the near future.  If not with functional programming then with something else, as we're always pushing the limits of how to make things better or effcient.  This makes me realize how I always have to improve and learn as I could get left behind quick, akin to Nokia and Smartphones.
   
+ ## Working as a team
+ Most of the time I was working alone.  Though there we're some group assignments most 
