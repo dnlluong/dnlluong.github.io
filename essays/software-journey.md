@@ -9,7 +9,7 @@ labels:
   - Functional Programming
   - Agile Software Development
 ---
-<img width="200px" class="rounded float-start pe-4" src="../img/software-journey/func-programming.png">
+<img width="400px" class="rounded float-start pe-4" src="../img/software-journey/func-programming.png">
 
 ## If you think you know, you don't
 
