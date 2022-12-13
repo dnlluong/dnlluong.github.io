@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/huligatti/board.jpg
-title: "Huligatti - Inverse Reinforcement Learning"
+title: "Huligattig"
 date: 2022
 published: true
 labels:
