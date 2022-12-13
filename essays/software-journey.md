@@ -19,6 +19,7 @@ I, like others in my position, think they know a fair amount of knowledge as the
 
 When you think of coding, it's probably like this, imperative.
 
+Imperative
 ```
 const numList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 let result = 0;
@@ -28,6 +29,12 @@ for (let i = 0; i < numList.length; i++) {
   }
 }
 ```
-
+Functional
+```
+const result = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+               .filter(n => n % 2 === 0)
+               .map(a => a * 10)
+               .reduce((a, b) => a + b);
+```
 ## Learn the ins and outs of HTML and CSS
   
