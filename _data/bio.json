@@ -18,16 +18,17 @@
     { "name": "Machine Learning" },
     { "name": "Crypto" },
     { "name": "Quantum Computing" },
+    { "name": "Information Theory" },
     { "name": "Robotics" },
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly","Python", ]
+      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly","Python","React", ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++"]
+      "keywords": [ "MacOS", "Ubuntu", "Windows", "Git/GitHub", "g++", "Meteor"]
     }
   ],
   "education": [
@@ -36,7 +37,7 @@
       "area": "Computer Engineering (expected Fall, 2022)",
       "studyType": "B.S.",
       "startDate": "2018-09-01",
-      "endDate": "Present",
+      "endDate": "Fall 2022",
       "courses": [
       ]
     }
@@ -53,25 +54,6 @@
         "Deliver great customer service while working in a fast paced environment",
         "Served Customers, Waited tables, Mixed Drinks, process Takeout, multitasking"
       ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "",
-      "website": "",
-      "position": "",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": ""
-    }
-  ],
-  "awards": [
-    {
-      "title": "",
-      "date": "",
-      "awarder": "",
-      "summary": ""
     }
   ],
   "references": [
