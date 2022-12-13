@@ -19,7 +19,7 @@ I, like others in my position, think they know a fair amount of knowledge as the
 
 When you think of coding, it's probably like this, imperative.
 
-Imperative
+## Imperative
 ```
 const numList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 let result = 0;
@@ -29,12 +29,12 @@ for (let i = 0; i < numList.length; i++) {
   }
 }
 ```
-Functional
+## Functional
 ```
 const result = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
                .filter(n => n % 2 === 0)
                .map(a => a * 10)
                .reduce((a, b) => a + b);
 ```
-## Learn the ins and outs of HTML and CSS
+They both do the same thing but go about it in different ways.  I haven't used a lot of functinal programming myself.  I know it might not always be the best choice as because it is not as efficient with the CPU as imperative programming in most instances but seeing how it is implemented makes me realize that the "norm" of coding could change in the near future.  If not with functional programming then with something else, as we're always pushing the limits of how to make things better or effcient.  This makes me realize how I always have to improve and learn as I could get left behind quick, akin to Nokia and Smartphones.
   
