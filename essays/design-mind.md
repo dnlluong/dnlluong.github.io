@@ -4,7 +4,7 @@ type: essay
 title: "Design Mind"
 # All dates must be YYYY-MM-DD format!
 date: 2022-11-30
-published: true
+published: false
 labels:
   - Design
   - Javascript
