@@ -11,7 +11,7 @@ labels:
   - Meteor
 summary: "My team developed a web app marketplace where University of Hawaii - Manoa students can buy/sell/trade their items."
 ---
-Links
+<b>Links<b>
 <br>
 [Manoa Market Webpage](http://137.184.236.187/).
 <br>
