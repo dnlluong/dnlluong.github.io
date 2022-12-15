@@ -17,6 +17,12 @@ summary: "My team developed a web app marketplace where University of Hawaii - M
   <img width="200px" src="../img/micromouse/micromouse-circuit.png" class="img-thumbnail" >
 </div>
 
-Whenever the semester is coming to an end you have an influx of students either finishing up, or going home for the break.  A lot of their belongings would be a hassle to take back.  With Manoa Market, the students would have a known platform where they can list these items up to be sold or traded.  Incoming students can take a look at the current items, to see if their is something on there they would've otherwise bought new.
+## Project Goal
+
+Whenever the semester is coming to an end you have an influx of students either finishing up, or going home for the break.  A lot of their belongings would be a hassle to take back.  With Manoa Market, the students would have a known platform where they can list these items up to be sold or traded.  Incoming students can take a look at the current items, to see if there are any items they could use/buy on there they would've otherwise bought new, helping Reduce and Reuse.
+
+## Contributions
+
+For this project I mainly dealt with the creation of the collections for the listings and what they entail.  I worked on the pages where you could insert or add and item to be on the market.  This also coincided with pages that would filter and show the different categories of the pages and 
 
 You can learn more at the [UH Micromouse News Announcement](https://manoa.hawaii.edu/news/article.php?aId=2857).
