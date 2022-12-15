@@ -19,7 +19,9 @@ summary: "My team developed a web app marketplace where University of Hawaii - M
 
 <div class="text-center p-4">
   <img width="400px" src="../img/manoa-market/landing.png" class="img-thumbnail" >
+  <br>
   <img width="400px" src="../img/manoa-market/listings.png" class="img-thumbnail" >
+  <br>
   <img width="400px" src="../img/manoa-market/add.png" class="img-thumbnail" >
 </div>
 
