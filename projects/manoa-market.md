@@ -23,6 +23,10 @@ Whenever the semester is coming to an end you have an influx of students either 
 
 ## Contributions
 
-For this project I mainly dealt with the creation of the collections for the listings and what they entail.  I worked on the pages where you could insert or add and item to be on the market.  This also coincided with pages that would filter and show the different categories of the pages and 
+For this project I mainly dealt with the creation of the collections for the listings and what they entail.  I worked on the pages where you could insert or add an item to be on the market.  This also coincided with pages that would filter and show the different categories of the items available.
+
+## Takeaways
+
+This was my first time using the Agile method of developing software.  Working with a team like this with
 
 You can learn more at the [UH Micromouse News Announcement](https://manoa.hawaii.edu/news/article.php?aId=2857).
