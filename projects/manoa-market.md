@@ -12,7 +12,9 @@ labels:
 summary: "My team developed a web app marketplace where University of Hawaii - Manoa students can buy/sell/trade their items."
 ---
 Links
+<br>
 [Manoa Market Webpage](http://137.184.236.187/).
+<br>
 [Project Home Page](https://manoa-market.github.io/).
 
 <div class="text-center p-4">
