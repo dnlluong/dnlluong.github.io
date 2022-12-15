@@ -11,6 +11,9 @@ labels:
   - Meteor
 summary: "My team developed a web app marketplace where University of Hawaii - Manoa students can buy/sell/trade their items."
 ---
+Links
+[Manoa Market Webpage](http://137.184.236.187/).
+[Project Home Page](https://manoa-market.github.io/).
 
 <div class="text-center p-4">
   <img width="200px" src="../img/micromouse/micromouse-robot.png" class="img-thumbnail" >
@@ -29,4 +32,4 @@ For this project I mainly dealt with the creation of the collections for the lis
 
 This was my first time using the Agile method of developing software.  Working with a team like this with and using a scrum board helped me better prepare for the what it would be like developing software in the real world.
 
-You can learn more at the [UH Micromouse News Announcement](https://manoa.hawaii.edu/news/article.php?aId=2857).
+
