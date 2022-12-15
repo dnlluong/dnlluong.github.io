@@ -18,8 +18,9 @@ summary: "My team developed a web app marketplace where University of Hawaii - M
 [Project Home Page](https://manoa-market.github.io/).
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/micromouse/micromouse-robot.png" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-circuit.png" class="img-thumbnail" >
+  <img width="300px" src="../img/manoa-market/landing.png" class="img-thumbnail" >
+  <img width="300px" src="../img/manoa-market/listing.png" class="img-thumbnail" >
+  <img width="300px" src="../img/manoa-market/add.png" class="img-thumbnail" >
 </div>
 
 ## Project Goal
