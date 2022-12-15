@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="My Software Journey | Daniel Luong | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/dnlluong.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Daniel Luong | Professional Portfolio">
+    <meta property="og:url" content="https://dnlluong.github.io/essays/software-journey.html">
+    <meta property="og:title" content="My Software Journey | Daniel Luong | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/dnlluong.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>My Software Journey | Daniel Luong | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Daniel Luong</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">My Software Journey</h1>
+  <span class="date">10 Dec 2022</span>
+  <hr>
+  <p><img width="400px" class="rounded float-start pe-4" src="../img/software-journey/func-programming.png" />
+##</p>
+
+<h2 id="if-you-think-you-know-you-dont">If you think you know, you don’t</h2>
+
+<p>I, like others in my position, think they know a fair amount of knowledge as they prepare to graduate.  I’ve worked with many algorithms and learned about the different ways to go about and solve them.  Certain Strategies that might be better to use in one situation than other.  Though this was the first time I’ve encountered functional programming.</p>
+
+<p>When you think of coding, it’s probably like this, imperative.</p>
+
+<h2 id="imperative">Imperative</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>const numList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let result = 0;
+for (let i = 0; i &lt; numList.length; i++) {
+  if (numList[i] % 2 === 0) {
+    result += numList[i] * 10;
+  }
+}
+</code></pre></div></div>
+<h2 id="functional">Functional</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>const result = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+               .filter(n =&gt; n % 2 === 0)
+               .map(a =&gt; a * 10)
+               .reduce((a, b) =&gt; a + b);
+</code></pre></div></div>
+<p>They both do the same thing but go about it in different ways.  I haven’t used a lot of functinal programming myself.  I know it might not always be the best choice as because it is not as efficient with the CPU as imperative programming in most instances but seeing how it is implemented makes me realize that the “norm” of coding could change in the near future.  If not with functional programming then with something else, as we’re always pushing the limits of how to make things better or effcient.  This makes me realize how I always have to improve and learn as I could get left behind quick, akin to Nokia and Smartphones.</p>
+
+<p><img width="200px" class="rounded float-start pe-4" src="../img/software-journey/agile.png" /></p>
+
+<h2 id="working-as-a-team">Working as a team</h2>
+<p>Most of the time I was working alone.  Though there we’re some group assignments but never using Agile Software Development.  My first time using the Agile method, it was hard to get used to, I’ve never put things on a task board before.  After using it though I realized how much I liked it.  The tasks didn’t need to be large, they could be small, and anyone could pick to do whatever tasks were available/needed to do at the time.  It was my first introduction to a scrum board.</p>
+
+<p>With the Agile process things didn’t seem so daunting as compared to the traditional Waterfall Method.  I didn’t think of it as a huge project to finish, just little pieces.  In the Waterfall Method, you break down things down into pieces of course, but with the Agile process the feel of it is a lot different. I realized that this is what most companies will use in their software teams so I’m glad I got to get used to it before I go out in the real world.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

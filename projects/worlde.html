@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Wordle | Daniel Luong | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/dnlluong.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Daniel Luong | Professional Portfolio">
+    <meta property="og:url" content="https://dnlluong.github.io/projects/worlde.html">
+    <meta property="og:title" content="Wordle | Daniel Luong | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/dnlluong.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Wordle | Daniel Luong | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Daniel Luong</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Wordle</h1>
+ <p><img class="img-fluid" src="../img/wordle/wordle_banner.png" /></p>
+
+<p>Wordle is a popular web-based word game.</p>
+
+<h2 id="how-wordle-works">How Wordle works</h2>
+
+<p>In Wordle you are given a specific number of turns to guess the word that was chosen.  For each consecutive word you are given a different color in each letter block, they will either indicate if that letter exists at all, if it exists but in a different block, or if that letter exists in that specific block.  Assigning values to those three specific states of the blocks, we get a specific pattern.</p>
+
+<h2 id="how-the-program-works">How the program works</h2>
+
+<p>We use this information from these patterns to deduce which other words may match this pattern and see which word will lower the amount of words left in the “dictionary” the most.  The best first word to reduce the number of possibilities may not be used when you want to use two words to reduce the possibilities as there maybe information overlap.  This program will give you the best word, or words to use, for a given scenario.  What words came before, if any, and how many possibilities you may have left.</p>
+
+<h2 id="sample-code">Sample Code</h2>
+<p>Sample code to give of the quality of the guessed word.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">qualityofguess</span><span class="p">(</span><span class="n">guess</span><span class="p">):</span>
+    <span class="n">patterndict</span><span class="o">=</span><span class="p">{}</span>
+    <span class="n">searchspace</span><span class="o">=</span><span class="p">{}</span>
+    <span class="c1">#Get the Total number of possible words for the answers
+</span>    <span class="n">N</span><span class="o">=</span><span class="nb">len</span><span class="p">(</span><span class="n">answers</span><span class="p">)</span>
+    
+    <span class="c1">#For each possible Answer we will get the pattern our guess input word creates and store it in the pattern dictionary
+</span>    <span class="c1">#Similar patterns will increase that specific patterns key count.
+</span>    <span class="k">for</span> <span class="n">ans</span> <span class="ow">in</span> <span class="n">answers</span><span class="p">:</span>
+        <span class="n">pattern</span> <span class="o">=</span> <span class="nb">tuple</span><span class="p">(</span><span class="n">compare</span><span class="p">(</span><span class="n">guess</span><span class="p">,</span><span class="n">ans</span><span class="p">))</span>
+        
+        <span class="k">if</span> <span class="n">pattern</span> <span class="ow">in</span> <span class="n">patterndict</span><span class="p">.</span><span class="n">keys</span><span class="p">():</span>
+            <span class="n">patterndict</span><span class="p">[</span><span class="n">pattern</span><span class="p">]</span><span class="o">+=</span><span class="mi">1</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">patterndict</span><span class="p">[</span><span class="n">pattern</span><span class="p">]</span><span class="o">=</span><span class="mi">1</span>
+            
+    <span class="nb">sum</span><span class="o">=</span><span class="mi">0</span>
+    
+    <span class="c1">#We double check if the number of keys in the pattern dic is equal to the total number of words
+</span>    <span class="k">for</span> <span class="n">keys</span> <span class="ow">in</span> <span class="n">patterndict</span><span class="p">.</span><span class="n">keys</span><span class="p">():</span>
+        <span class="nb">sum</span><span class="o">+=</span><span class="n">patterndict</span><span class="p">[</span><span class="n">keys</span><span class="p">]</span>
+    <span class="k">if</span><span class="p">(</span><span class="nb">sum</span><span class="p">)</span><span class="o">==</span><span class="n">N</span><span class="p">:</span>
+        <span class="n">entropy</span><span class="o">=</span><span class="mi">0</span>
+        <span class="k">for</span> <span class="n">keys</span> <span class="ow">in</span> <span class="n">patterndict</span><span class="p">.</span><span class="n">keys</span><span class="p">():</span>
+            <span class="n">entropy</span><span class="o">+=</span><span class="n">patterndict</span><span class="p">[</span><span class="n">keys</span><span class="p">]</span><span class="o">*</span><span class="n">math</span><span class="p">.</span><span class="n">log</span><span class="p">(</span><span class="n">patterndict</span><span class="p">[</span><span class="n">keys</span><span class="p">])</span>
+            <span class="c1">#Normalize it over the total number of available answers to get a number between 0 and 1
+</span>        <span class="n">entropy</span><span class="o">=</span><span class="n">entropy</span><span class="o">/</span><span class="n">N</span>
+        <span class="k">return</span> <span class="n">entropy</span>
+
+</code></pre></div></div>
+
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

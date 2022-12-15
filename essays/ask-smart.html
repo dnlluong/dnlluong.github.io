@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="If you ask, ask it Smart | Daniel Luong | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/dnlluong.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Daniel Luong | Professional Portfolio">
+    <meta property="og:url" content="https://dnlluong.github.io/essays/ask-smart.html">
+    <meta property="og:title" content="If you ask, ask it Smart | Daniel Luong | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/dnlluong.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>If you ask, ask it Smart | Daniel Luong | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Daniel Luong</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">If you ask, ask it Smart</h1>
+  <span class="date">04 Sep 2022</span>
+  <hr>
+  <p><img width="300px" class="rounded float-start pe-4" src="../img/ask-smart/stevejobs.jpeg" /></p>
+
+<p>Steve Jobs:  “I’ve never found anybody that didn’t want to help me if I asked them for help.”</p>
+
+<h2 id="do-we-think-how-we-ask-questions">Do we think how we ask questions?</h2>
+
+<p>When I ask a question do I really think how I ask the question.  Most of the times, not really.  I just ask the question the best I can to be able to get a response to a question.  When I actually think about how I ask questions, I do realize there could be better ways and worse ways than the things I already do.  People are willing to help if you ask, to have respect for their time, we should try make their time helping us the shortest and easiest that we possibly can.  We can do this be asking smarter questions, Smart Questions.</p>
+
+<h2 id="whats-a-smart-question">What’s a smart question?</h2>
+
+<p>Stack Overflow, a question and answer site for programmers, is an amazing resource.  I’d like to say that 99% of programmers, at least from the U.S, have used or at least heard of Stack Overflow.  With it having so many questions we can see good and bad of examples of people asking questions.  The Good ones tend to get the responses that they wanted, while the bad ones might take a while to navigate what they want from the questions, or even being ignored entirely.</p>
+
+<p>In the following example, we examine the components of a decent question that gets the response wanted.</p>
+
+<p>Question:how can I achieve multiple conditional inheritance?
+Link to StackOverflow:https://stackoverflow.com/questions/73557662/how-can-i-achieve-multiple-conditional-inheritance</p>
+
+<p>Contents:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+I have a type build that has a flag template, and according to the active flag bits, it inherits from those types. this allows me to "build" classes from many subclasses with a great number of configurations:
+
+Code:
+struct empty {};
+
+template&lt;std::uint8_t flags&gt; 
+using flag_a_type = std::conditional_t&lt;(flags &amp; FLAG_BIT_A), A, empty&gt;;
+template&lt;std::uint8_t flags&gt; 
+using flag_b_type = std::conditional_t&lt;(flags &amp; FLAG_BIT_B), B, empty&gt;;
+template&lt;std::uint8_t flags&gt; 
+using flag_c_type = std::conditional_t&lt;(flags &amp; FLAG_BIT_C), C, empty&gt;;
+template&lt;std::uint8_t flags&gt; 
+using flag_d_type = std::conditional_t&lt;(flags &amp; FLAG_BIT_D), D, empty&gt;;
+
+template&lt;std::uint8_t flags&gt;
+struct build : 
+    flag_a_type&lt;flags&gt;, flag_b_type&lt;flags&gt;, flag_c_type&lt;flags&gt;, flag_d_type&lt;flags&gt; {
+
+};
+
+int main() {
+    build&lt;FLAG_BIT_A | FLAG_BIT_C&gt; foo;
+}
+
+so build&lt;FLAG_BIT_A | FLAG_BIT_C&gt; should result in a class that inherits from A and from C.
+
+but it doesn't compile, saying empty is already a direct base class:
+
+error C2500: 'build&lt;5&gt;': 'empty' is already a direct base class
+how can I achieve this without having to make 4 different empty structs to avoid the clash?
+
+</code></pre></div></div>
+
+<p>While the question does not give us enough specific information in the title, it gives us enough information once we open the link and see the intial information provided about the problem.  He provides his code that is easily able to be copied and pasted to reproduce the result he posted.  He also informs us what the code should intend to do.  This elicits more than a couple solutions to his problem from multiple people willing to help, with their own code that can be copy and pasted to try their “fix” of the problem.  While this is not the “best” question, it hits most of the check marks of being specific enough about their problem, provided easy examples to be reproduced, what his output is, and what his desired output is.</p>
+
+<h2 id="the-opposite-end-of-the-spectrum">The Opposite end of the Spectrum</h2>
+
+<p>Stack Overflow is loaded with a bunch of great, amazing, smart questions.  The same can be also said about the other end.  There are also a bunch of questions of Stack Overflow that may not have any responses or few that may not even solve the question.  It may not be because the question is insolvable but more in a way that it is hard to infer what they are asking or they made it too inconvenient to even try to attempt to help them.</p>
+
+<p>Link to Question: https://stackoverflow.com/questions/10027368/iterate-over-arraylist-in-java</p>
+
+<p>Question: Iterate over ArrayList in Java?</p>
+
+<p>Contents:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>An arraylist contain object of a class. The object contain 3 variable name,city and phonenumber. How to iterate over the arraylist in java. is this syntax correct: name of the arraylist is cartdetails.
+</code></pre></div></div>
+
+<p>Theres so many questions you can ask about the question, it is very vague.  Though the question can easily be answered, we don’t know how the iteration is to be done for this Array List.  There is no sample code for people viewing to try.  To help answer this question you would personally need to procure the code yourself than just changing something in their own code.  Though it got an answer that answered its question the thread was heavily downvoted because it made if harder for people viewing by being too incomplete of a question.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Like Steve Jobs said,  people are willing to help if you ask.  If you’re gonna ask though, you better not be wasting their time.  When they go and view your question, they should be spending more time trying to help you solve your problem than spending time trying to see what your problem is in the first place, or even understand what problem you are having.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
