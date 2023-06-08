@@ -6,7 +6,7 @@
     "email": "dluong@hawaii.edu",
     "phone": "808-224-3502",
     "website": "https://dnlluong.github.io",
-    "summary": "I am studying for a B.S. in Computer Engineering in the Department of Electrical Engineering at the University of Hawaii at Manoa. I expect to graduate in Fall, 2022.",
+    "summary": " I'm Daniel Luong, a passionate computer engineer skilled in web development and experienced in agile software practices. With expertise in languages like C/C++, JavaScript, React, and Python, I enjoy tackling complex challenges and delivering innovative solutions.  Learning more each day.",
     "location": { "address": "", "postalCode": "96816", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "dnlluong", "url": "http://github.com/dnlluong" },
@@ -29,6 +29,10 @@
     {
       "name": "Toolsets/OS",
       "keywords": [ "MacOS", "Ubuntu", "Windows", "Git/GitHub", "g++", "Meteor"]
+    },
+    {
+      "name": "Certifications",
+      "keywords": ["AWS - Certified Developer Associate"]
     }
   ],
   "education": [
