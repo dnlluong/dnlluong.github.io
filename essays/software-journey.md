@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "My Software Journey"
+title: "Embracing New Perspectives in Coding and Collaboration"
 # All dates must be YYYY-MM-DD format!
 date: 2022-12-10
 published: true
@@ -14,7 +14,7 @@ labels:
 
 ## If you think you know, you don't
 
-I, like others in my position, think they know a fair amount of knowledge as they prepare to graduate.  I've worked with many algorithms and learned about the different ways to go about and solve them.  Certain Strategies that might be better to use in one situation than other.  Though this was the first time I've encountered functional programming.
+As graduation approaches, I find myself reflecting on the breadth of knowledge I have gained and the programming concepts I have become familiar with. Algorithms and problem-solving strategies have become second nature to me. However, recently I encountered a new paradigm: functional programming.
 
 When you think of coding, it's probably like this, imperative.
 
@@ -35,12 +35,15 @@ const result = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
                .map(a => a * 10)
                .reduce((a, b) => a + b);
 ```
-They both do the same thing but go about it in different ways.  I haven't used a lot of functinal programming myself.  I know it might not always be the best choice as because it is not as efficient with the CPU as imperative programming in most instances but seeing how it is implemented makes me realize that the "norm" of coding could change in the near future.  If not with functional programming then with something else, as we're always pushing the limits of how to make things better or effcient.  This makes me realize how I always have to improve and learn as I could get left behind quick, akin to Nokia and Smartphones.
+Both approaches achieve the same result but differ in their execution. While functional programming may not always be the most CPU-efficient choice, witnessing its implementation has made me realize that the coding landscape could shift in the near future. As technology constantly evolves, we continually explore ways to enhance efficiency and effectiveness. This realization drives me to continuously improve and stay adaptable, as remaining stagnant could result in being left behind, much like Nokia and the advent of smartphones.
   
  
 <img width="200px" class="rounded float-start pe-4" src="../img/software-journey/agile.png">
 
 ## Working as a team
- Most of the time I was working alone.  Though there we're some group assignments but never using Agile Software Development.  My first time using the Agile method, it was hard to get used to, I've never put things on a task board before.  After using it though I realized how much I liked it.  The tasks didn't need to be large, they could be small, and anyone could pick to do whatever tasks were available/needed to do at the time.  It was my first introduction to a scrum board.
- 
- With the Agile process things didn't seem so daunting as compared to the traditional Waterfall Method.  I didn't think of it as a huge project to finish, just little pieces.  In the Waterfall Method, you break down things down into pieces of course, but with the Agile process the feel of it is a lot different. I realized that this is what most companies will use in their software teams so I'm glad I got to get used to it before I go out in the real world.
+ Moreover, my experiences have not solely revolved around individual work. While most of my assignments were solitary endeavors, I did have opportunities to collaborate in group projects, particularly through Agile Software Development methodologies. Initially, adapting to Agile was a challenge. I had never used a task board before or fully embraced the concept of breaking down projects into manageable tasks. However, as I became acquainted with Agile practices, particularly scrum boards, I discovered how much I enjoyed this collaborative approach.
+
+Agile's incremental nature made daunting projects more approachable. Rather than perceiving a massive undertaking, I learned to view it as a collection of smaller, achievable tasks. Unlike the rigid structure of the Waterfall Method, Agile allowed for flexibility and empowered team members to select and tackle tasks as needed. Recognizing that Agile is widely utilized in the software industry, I am grateful for the opportunity to familiarize myself with this approach before entering the professional realm.
+
+## Conclusion
+In conclusion, encountering functional programming has expanded my horizons and reinforced the need for continuous learning and adaptation in the ever-evolving world of coding. Likewise, embracing Agile methodologies has highlighted the power of collaboration and incremental progress. These experiences have shaped me into a more versatile and resilient computer engineer, ready to face future challenges and contribute meaningfully to the software development landscape.
